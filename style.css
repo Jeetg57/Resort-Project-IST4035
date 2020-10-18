@@ -9,7 +9,7 @@ html, body{
     font-size: 18px;
 }
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/image\ 1.png");
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/image1.png");
     min-height: 80%;
     background-position: top;
     background-size: cover;
