@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding:0;
+    font-size: 18px;
+    width:100%;
+    font-family: 'Poppins', sans-serif;
+    }
+    
+h1{
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #000000;
+    margin-top: auto;
+}
+
+p{
+    font-weight: normal;
+    font-size: 1.3em;
+    text-align: justify;
+    color: #000000;
+} 
+
+#top{
+background-color: cornsilk;
+}
+
+#second{
+   background-color: #D6EAF8;
+}
+
+#third{
+   background-color: #FADBD8;
+}
+
+#bottom{
+   background-color: #ABEBC6;
+}
+
+.ealNavbar ul{
+   background-color: cornsilk;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 10px 5em;
+}
+
+.ealNavbar ul li{
+    float: right;
+}
+
+.ealNavbar>ul>li>a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.ealNavbar>ul>li>a:hover{
+    color: rgb(230, 150, 150);
+    transition: ease-in 0.3s;
+}
+
+#main-title{
+    float: left;
+    font-family: 'Snowburst One', cursive;
+    color: black;
+    font-size: 2em;
+}
+
+img{
+   border-radius: 8px;
+   width: 100%;
+}
+
+.wrapper{
+   display: flex;
+   padding: 2em 5em;
+   justify-content: center;
+   align-items: center;
+}
+
+.col1{
+   flex:60%;
+   padding: 0 3em;
+}
+
+.col2{
+   flex:40%;
+}
+
+@media only screen and (max-width: 1000px){
+   .wrapper{
+       flex-wrap: wrap;
+   }
+   body{
+       font-size:14px;
+   }
+}
+
+@media only screen and (max-width: 600px){
+   body{
+       font-size:12px;
+   }
+} 
