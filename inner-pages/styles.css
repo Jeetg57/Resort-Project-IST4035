@@ -93,6 +93,7 @@ img{
 @media only screen and (max-width: 1000px){
    .wrapper{
        flex-wrap: wrap;
+       padding: 2em 2em;
    }
    body{
        font-size:14px;
