@@ -1,11 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
+<style>
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/landing.jpg");
+        min-height: 100%;
+    }
+
+    .headerContent>p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 96px;
+        color: #000000;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .ealNavbar>ul>li>a {
+        color: black;
+    }
+
+    .ealNavbar>ul>li>a:hover {
+        color: yellow;
+        transition: ease-in 0.3s;
+    }
+
+    #main-title {
+        color: black;
+    }
+
+    .main-content {
+        padding: 2em 5em;
+        text-align: justify;
+    }
+
+    .col1{
+        flex: 50%;
+    }
+    .col2 {
+        flex: 50%;
+        margin: 0 0 0 2em; 
+}
+@media screen and (max-width: 1000px) {
+    .wrapper{
+        flex-wrap: wrap;
+    }
+    .col1{
+        flex:100%;
+    }
+    .col2{
+        flex:100%;
+        margin: 0;
+    }
+}
+</style>
+
 <body>
-    
+    <header>
+        <navbar class="ealNavbar">
+            <ul>
+                <li id="main-title">EAL</li>
+
+                <li>
+                    <a href="about.html">About Us</a>
+                </li>
+                <li>
+                    <a href="services.html">Services</a>
+                </li>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+
+            </ul>
+        </navbar>
+        <div class="headerContent">
+            <p>Get to know us </p>
+        </div>
+    </header>
+    <div class="main-content">
+        <h1>Welcome to East Africa Lodges</h1>
+        <h4>A passion for making memories</h4>
+        <div class="wrapper">
+            <div class="col1">
+                <p>East Africa Lodge is a modern, upscale hospitality company that is passionate about ‘making moments’,
+                    recognising that small gestures make a big difference to our guests, our owners and our people. We
+                    do ordinary things in an extraordinary
+                    way – a philosophy that has defined our brand’s success from the very start. <br> <br> A global firm with
+                    Kenyan roots and a restaurant and hospitality heritage that dates back to the 1980s, our approach to
+                    service has remained consistent; warm,
+                    intuitive, personal and unique. We also embrace innovation to meet ever-changing guest needs and
+                    continue to celebrate our rich culinary legacy, setting trends but never compromising on quality and
+                    authenticity. <br><br> An international company
+                    with a growing footprint, we take a sustainable and responsible approach, caring for local
+                    communities and protecting the environment in the destinations where we operate.</p>
+            </div>
+            <div class="col2">
+                <img src="../images/checkIn.png" width="100%">
+            </div>
+        </div>
+    </div>
+    <footer class="ealFooter">
+        <div class="col1">
+            <h1>EAL</h1>
+            <p>info@eal.com</p>
+            <p>+254 789101112</p>
+            <p>Oakland area, Mount Kenya, Kenya</p>
+        </div>
+
+        <div class="col2">
+            <ul>
+                <li><a href="#room">Room</a></li>
+                <li><a href="#room">Food and Drinks</a></li>
+                <li><a href="#room">Amenities</a></li>
+                <li><a href="#room">Services</a></li>
+                <li><a href="inner-pages/contact.html">Contact us</a></li>
+            </ul>
+        </div>
+
+        <div class="col3">
+            <h1>Awards</h1>
+            <p>Best Resort Hotels in Kenya, No. 2 Travel + Leisure, 2019</p>
+            <p class="copyright">Copyright EAL, 2000</p>
+        </div>
+
+    </footer>
+
 </body>
+
 </html>
