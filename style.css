@@ -108,7 +108,7 @@ header{
 }
 .services{
     position: relative;
-    margin: 0 5em 3em 5em;
+    margin: 0 5em 5em 5em;
 }
 .cards{
     display: flex;
@@ -140,6 +140,13 @@ header{
 .card-heading{
     font-weight: bold;
 }
+.center-btn{
+    margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, 50%);
+  transform: translate(-50%, -50%);
+}
 .btn{
   font-family: 'Poppins', sans-serif;
   border: none;
@@ -160,6 +167,7 @@ header{
     background-color: #EDBB99;
 }
 .book{
+    position: relative;
     background-color: #F6DDCC;
     padding: 2em 4em;
 }
@@ -175,16 +183,6 @@ header{
   .quote{
     font-family: 'PT Sans', sans-serif;
     font-size: 1.5em;
-  }
-  .button{
-      position: relative;
-      background: #16A085;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      border-radius: 50px;
-      text-align: center;
-      width: 180px;
-      left: 40%;
-  
   }
   .ealFooter{
       background-color: #EFF1FE;
